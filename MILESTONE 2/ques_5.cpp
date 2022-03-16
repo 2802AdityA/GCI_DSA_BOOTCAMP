@@ -3,33 +3,9 @@ using namespace std;
 
 int main()
 {
-
-    int marks;
-    cin >> marks;
-
-    if (marks < 25)
+    for (int i = 1; i < 100; i += 2)
     {
-        cout << "F" << endl;
-    }
-    else if (marks >= 25 && marks < 45)
-    {
-        cout << "E" << endl;
-    }
-    else if (marks >= 45 && marks < 50)
-    {
-        cout << "D" << endl;
-    }
-    else if (marks >= 50 && marks < 60)
-    {
-        cout << "C" << endl;
-    }
-    else if (marks >= 60 && marks < 80)
-    {
-        cout << "B" << endl;
-    }
-    else if (marks >= 80)
-    {
-        cout << "A" << endl;
+        cout << i << endl;
     }
 
     return 0;

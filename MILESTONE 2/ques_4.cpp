@@ -3,19 +3,11 @@ using namespace std;
 
 int main()
 {
-
-    int salary, year_of_service;
-    cout << "Enter the salary amount ";
-    cin >> salary;
-    cout << "Enter the year of service ";
-    cin >> year_of_service;
-    if (year_of_service > 5)
+    int i = 2;
+    while (i <= 100)
     {
-        cout << "Your bonus is " << (salary * 5) / 100 << endl;
-    }
-    else
-    {
-        cout << "No bonus" << endl;
+        cout << i << endl;
+        i += 2;
     }
 
     return 0;

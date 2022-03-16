@@ -1,15 +1,16 @@
-// from https://www.codesdope.com/practice/java-decide-if-or-else/
-
 #include <iostream>
 using namespace std;
 
 int main()
 {
-    string c;
-    int l, b;
-    cout << "Enter the dimesions ";
-    cin >> l >> b;
-    c = l == b ? "Square" : "Not a Square";
-    cout << c << endl;
+
+    int n, i = 1;
+    cin >> n;
+    while (i <= n)
+    {
+        cout << i << endl;
+        i++;
+    }
+
     return 0;
 }
